@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #e6a563;
+}
+
+nav {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+nav img {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.button {
+    background-color: #e6a563;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: white;
+    display: block;
+}
+
+
+.nav1 ul {
+    justify-content: space-between;
+}
+
+.nav1 ul li:nth-child(2) {
+    margin-left: auto;
+}
+
+.nav1 ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+}
+
+
+.nav2 ul {
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.nav2 ul li:last-child {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.nav2 ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+}
+
+
+.nav3 ul {
+    justify-content: center;
+}
+
+.nav3 .logo {
+    margin-right: auto;
+}
+
+.nav3 .middle-links {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav3 .middle-links ul {
+    display: flex;
+    gap: 15px;
+}
+
+.nav3 .button-container {
+    margin-left: auto;
+}
+
+
+.nav3 ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+    text-align: center;
+}

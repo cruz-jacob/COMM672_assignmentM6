@@ -1,0 +1,289 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #efefef;
+    color: #333;
+    line-height: 1.6;
+}
+
+.site-header {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    height: 75px;
+}
+
+.site-nav {
+    margin-right: 100px;
+}
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.site-nav li {
+    margin-left: 15px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.95em;
+}
+
+.site-nav a:hover {
+    background-color: #e6a563;
+}
+
+.hero {
+    background-color: #FFCF83;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 500px;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 400px;
+    text-align: right;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1em;
+    color: #555;
+}
+
+.features {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.feature-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.feature-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-box img {
+    height: 175px;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.feature-box .read-more {
+    color: #e6a563;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.testimonials {
+    background-color: #222e50;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.testimonial-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 280px;
+}
+
+.testimonial-box p {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 0.95em;
+    color: black;
+}
+
+.testimonial-box .author {
+    font-style: normal;
+    color: black;
+}
+
+.testimonial-box .author .name {
+    font-weight: bold;
+}
+
+.testimonial-box .author br + * {
+    font-weight: normal;
+}
+
+.team {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.team-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.team-member p {
+    font-weight: normal;
+    color: black;
+    font-size: 0.9em;
+}
+
+.site-footer {
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 5px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+}
+
+.social-media,
+.contact-info {
+    flex: 1 1 100%;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.social-media {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-media a {
+    display: inline-block;
+}
+
+.social-media img {
+    height: 35px;
+}
+
+.contact-info {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.contact-info address,
+.contact-info p {
+    color: black;
+    font-size: 0.9em;
+    font-style: normal;
+    margin: 0;
+}
